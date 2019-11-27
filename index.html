@@ -1,0 +1,234 @@
+<!doctype html>
+ <html>
+ <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <style>
+   img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 25px;
+   margin-bottom: 10px;
+
+  border-style: solid;
+  border-color: #03396c;
+  border-width: thick;
+
+
+ }
+   table, th, td {
+   border: 1px solid gray;
+ }
+
+   p.light {
+   font-weight: lighter;
+ }
+   p.arial {
+   font-family: Arial
+ }
+
+   ul.refrence {
+   list-style-type: none;
+   margin: 0;
+   padding: 5;
+   font-family: Georgia }
+
+
+   ul {
+   background: #011f4b;
+   padding: 25px;
+ }
+
+   ul li {
+   background: #b3cde0;
+   margin-left: 32px;
+   padding: 5px
+ }
+
+   ol.refrence1 {
+   list-style-type: none;
+   margin: 0;
+   padding: 5;
+   font-family: Georgia
+ }
+   ol {
+   background: #011f4b;
+   padding: 30px;
+     }
+   ol li {
+     background: #b3cde0;
+     padding: 5px;
+     margin-left: 35px;
+   }
+
+
+   h1, h2 {
+ 	margin: 1em 0 0 0;
+ 	text-align: center;
+ }
+ h2 {
+ 	margin: 0 0 1em 0;
+ }
+ #container {
+     margin: 0 auto;
+     width: 50%;
+ }
+ #accordion input {
+ 	display: none;
+ }
+ #accordion label {
+ 	background: #eee;
+ 	border-radius: .25em;
+ 	cursor: pointer;
+ 	display: block;
+ 	margin-bottom: .125em;
+ 	padding: .25em 1em;
+ 	z-index: 20;
+ }
+ #accordion label:hover {
+ 	background: #ccc;
+ }
+
+ #accordion input:checked + label {
+ 	background: #ccc;
+ 	border-bottom-right-radius: 0;
+ 	border-bottom-left-radius: 0;
+ 	color: white;
+ 	margin-bottom: 0;
+ }
+ #accordion article {
+ 	background: #888C8F;
+ 	height:0px;
+ 	overflow:hidden;
+ 	z-index:10;
+ }
+ #accordion article p {
+ 	padding: 1em;
+ }
+ #accordion input:checked article {
+ }
+ #accordion input:checked ~ article {
+ 	border-bottom-left-radius: .25em;
+ 	border-bottom-right-radius: .25em;
+ 	height: auto;
+ 	margin-bottom: .125em;
+ }
+
+
+
+
+ </style>
+
+
+     <title>Thomas Richardson Resume</title>
+ </head>
+
+
+
+
+ <body>
+   <div id="container">
+ <div style="background-color: #888C8F;
+  border: 20px solid #011f4b;">
+
+     <img src="Thomas Senior Photos22-2.jpg" width="266" height="177" class="center" >
+
+   <div style="background-color: #b3cde0;
+               padding-top: 1px;
+               padding-bottom: 2px;">
+
+     <h2 style="text-align:center; font-family:Arial; font-size: 35px;">Thomas Richardson</h2>
+     <p style="text-align:center; font-family:Georgia"><a href=mailto:<tarich11@asu.edu>tarich11@asu.edu</a><p>
+     <p style="text-align:center; font-family:Georgia"><a href="tel:480-280-8230">480-280-8230</a><p>
+     <p style="text-align:center; font-family:Georgia"><a href="https://goo.gl/maps/hHUJDWnTDa4DE6R67" >18833 E Swan Dr Queen Creek, AZ 85142</a> </p>
+  </div>
+
+
+  <div style="text-align:center; font-family: Georgia; font-weight: lighter; font-size: 17px; background-color: #b3cde0; padding:1px"  >
+   <p> The purpose of this resume is to demonstrate the breadth of my experience and excellence in academia.</p>
+ </div>
+
+
+
+
+ <section id="accordion">
+ 			<div>
+ 				<input type="checkbox" id="check-1" />
+ 				<label for="check-1">Education</label>
+ 				<article>
+
+     <table style="width:60%; margin-left: auto;  margin-right: auto; font-family:Georgia; background-color: #b3cde0; padding: 10px">
+     <tr>
+     <th>Level</th>
+     <th>Description</th>
+     <th>Year</th>
+   </tr>
+   <tr>
+     <td>ASU</td>
+     <td>GPA: 4.0</td>
+     <td>2018-Present</td>
+   </tr>
+   <tr>
+     <td>Perry High School</td>
+     <td>GPA: 4.0 <br> AP Scholar with Distinction <br> Top 5% of class</td>
+     <td>2014-2018</td>
+   </tr>
+ </table>
+
+
+ 			</div>
+
+
+ 			<div>
+         <input type="checkbox" id="check-2" />
+         				<label for="check-2">Experience</label>
+         				<article>
+
+ <ol class= "refrence1">
+   <li>1. Media Director for IC 2019</li>
+   <li>2. Starbucks Barista Trainer 2016-Current</li>
+   <li>3. Offroad Encounters Travel Experience 2014</li>
+ </ol>
+
+ <div style="background-color: #b3cde0; padding: 10px">
+ <p class= "arial"; style="margin-left: 58px">1. Strategically capturing photographs and video while protecting identity of subjects <br>
+       Filming and recording interviews with external lighting and audio <br>
+       Comiling content for concept video</p>
+ <p class= "arial"; style="margin-left: 58px">2.  Guide, communicate, and lead new baristas into future success in the company <br>
+        Showing both extensive knowledge and leadership in Starbucks Coffee Company</p>
+ <p class= "arial"; style="margin-left: 58px">3.  Travel documentary in Malawi, Kazakhstan, Indonesia, and Jordan <br>
+ Developed online homeschool curriculum series for American children <br>
+ Established human connections with citizens of each country by serving as a facilitator of cultural exchange</p>
+ </article>
+
+ </div>
+
+
+ <div>
+ <input type="checkbox" id="check-3" />
+ 				<label for="check-3">References</label>
+ 				<article>
+
+   <ul class= "refrence">
+     <li><b>Vy Davy:</b> 480-516-6727</li>
+     <li><b>Elizabeth Tompkins:</b> 480-840-4626</li>
+     <li><b>Tony D'Andrea:</b> 480-980-3039</li>
+   </ul>
+ </div>
+
+ </article>
+ </div>
+ 		</section>
+   </div>
+
+ </body>
+ </html>
+
+
+
+
+   </body>
+
+ </html>
